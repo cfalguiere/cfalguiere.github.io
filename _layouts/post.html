@@ -8,8 +8,6 @@ defaultThumbnail: /assets/blog/images/thumbnail-default-150x150.png
 <article class="post">
   <img style="float:left;margin-right: 10px;margin-bottom: 5px;" src="{{ page.thumbnail | default: page.defaultThumbnail }}">
 
-  <small class="post-date" style="color:grey;">{{ page.date | date_to_string }}</small>
-  <h2 style="margin-left: 5px;">{{ page.title }}</h2>
   <div class="date">
     <p>
       <div style="float: right;">
@@ -21,6 +19,8 @@ defaultThumbnail: /assets/blog/images/thumbnail-default-150x150.png
       </div>
     </p>
   </div>
+  <small class="post-date" style="color:grey;">{{ page.date | date_to_string }}</small>
+  <h2 style="margin-left: 5px;">{{ page.title }}</h2>
 
   <div class="entry">
     <p>
