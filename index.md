@@ -24,12 +24,10 @@ defaultThumbnail: /assets/blog/images/thumbnail-default-150x150.png
     <a href="{{ post.url | relative_url  }}">{{ post.title }}</a>
     <br>
     <small class="post-date" style="color:grey;">{{ post.date | date_to_string }}</small>
-    {% if post.excerpt %}
-      <br>
-      <p style="color:white;font-style:italic;">
-        {{ post.excerpt }}
-      </p>
-    {% endif %}
+    <br>
+    <p style="color:white;font-style:italic;">
+    {{ post.excerpt | "" }}
+    </p>
   </div>
 
   <div style="clear: both;">
