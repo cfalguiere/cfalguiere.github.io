@@ -23,7 +23,6 @@ defaultThumbnail: /assets/blog/images/thumbnail-default-150x150.png
     {% endfor %}
     <small class="post-date" style="color:grey;">{{ post.date | date_to_string }}</small>
 
-    </small>
   </div>
 
   <div style="clear: both;">
