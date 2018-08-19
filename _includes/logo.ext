@@ -4,12 +4,11 @@ selected
 -->
 
     <div style="float:left;">
-      <svg height="50" width="450">
+      <svg height="70" width="450">
           <text fill="white" font-family="Verdana" font-size="32"
-              x="0" y="20"
               textlength="450"
               >
-              TOUTenALGO
+              TOUTENALGO
           </text>
         </a>
       </svg>
