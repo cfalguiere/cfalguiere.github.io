@@ -9,6 +9,10 @@ defaultThumbnail: /assets/blog/images/thumbnail-default-150x150.png
 ---
 
 {% for post in site.posts limit: 3 %}
+
+<div style="background-color:#91a61d;padding:5px">
+
+</div>
   <div style="margin-left:5px;float:left;">
     <a href="{{ post.url | relative_url  }}" ><img style="float:left;" src="{{ post.thumbnail | default: page.defaultThumbnail }}"> </a>
   </div>
@@ -36,6 +40,9 @@ defaultThumbnail: /assets/blog/images/thumbnail-default-150x150.png
   </div>
   <hr>
 
+<div>
+
+</div>
 {% endfor %}
 
 <div style="margin-left:5px;margin-bottom:20px;">
