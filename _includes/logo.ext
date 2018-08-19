@@ -4,11 +4,8 @@ selected
 -->
 
     <div style="float:left;">
-      <svg height="50" width="50">
+      <svg height="50" width="450">
           <text fill="white" font-family="Verdana" font-size="32"
-              x="50%" y="50%"
-              alignment-baseline="middle"
-              text-anchor="middle"
               rotate="0,90,180,270,0,90,180;270,0,90"
               textLength="450"
               >
