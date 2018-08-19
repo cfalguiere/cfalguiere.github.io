@@ -7,40 +7,32 @@ published: true
 assetsFolder: /assets/theme
 ---
 
-<!--
-<p>
-  <ul class="tags">
-    {% for tag in site.tags | sort %}
-      {% assign t = tag | first %}
-      {% assign posts = tag | last %}
-      {% assign tagName = t | downcase | replace:" ","-"  %}
-      {% assign tagCount = posts | size  %}
-      <li>{{ tagName }} : {{ tagCount }} posts</li>
-    {% endfor %}
-</ul>
-</p>
--->
 
 <div class="tags-expo">
   <div class="tags-expo-list">
-    {% for tag in site.tags %}
-      {% assign postsCount = tag | last | size %}
-      <a href="#{{ tag[0] | slugify }}" class="post-tag">{{ tag[0] }} ({{postsCount}})</a>
+    {% for group in site.data.presentations.groups  %}
+      <a href="#{{ group[0] | slugify }}" class="post-tag">{{ group[0].name }} )</a>
       {% unless forloop.last %},{% endunless %}
     {% endfor %}
   </div>
   <hr/>
   <div class="tags-expo-section">
-    {% for tag in site.tags %}
-    <h2 id="{{ tag[0] | slugify }}">{{ tag | first }}</h2>
+    {% for group in site.data.presentations.groups  %}
+    <h2 id="{{ group | slugify }}">{{ group.name }}</h2>
     <ul class="tags-expo-posts">
-      {% for post in tag[1] %}
-        <a class="post-title" href="{{ site.baseurl }}{{ post.url }}">
-      <li>
-        {{ post.title }}
-      <small class="post-date">{{ post.date | date_to_string }}</small>
-      </li>
-      </a>
+      {% for item in group.items %}
+        {% if item.relative-url != ""  %}
+          {% assign url = site.data.presentations + item.relative-url %}
+        {% else %}
+          {% assign url = item.url %}
+        {% endif %}
+        <li>
+        <a class="post-title" href="{{ url | }}">
+        {{ item.name }}</a>
+        <small class="post-date">{{ item.year | "" }}</small>
+        <small class="post-date">{{ item.lang | "" }}</small>
+        </li>
+
       {% endfor %}
     </ul>
     {% endfor %}

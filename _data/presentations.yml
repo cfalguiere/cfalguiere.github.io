@@ -12,3 +12,55 @@
   title: About
   color: #91a61d
   url: about
+
+urlPrefix: https://cfalguiere.github.io/Presentations/
+
+groups:
+
+  - id: machine-learning
+    name: Machine Learning
+    items:
+      - id: H2O
+        name: Présentation H2O à Devops France
+        url: TODO
+        lang: French
+        year:
+
+
+  - id: clojure
+    name: Présentations Clojure
+    items:
+      - id: clojure-di
+        name: Présentation Clojure et Dependency Ingestion
+        relative-url: Pres-DI-Clojure/index.html
+        lang: French
+        year:
+
+  - id: devops
+    name: Présentations Devops
+    items:
+      - id: devops-wit
+        name: Présentation Devops au Women Techmakers
+        relative-url: Pres-Devops-Women-Techmakers/index.html
+        lang: French
+        year: 2014
+      - id: monitoring-brz
+        name: Présentation Monitoring au Breizhcamp
+        url: http://fr.slideshare.net/claude.falguiere/pres-monitoring-v2
+        lang: French
+        year: 2014
+
+  - id: leap-motion
+    name: Présentations Devops
+    items:
+      - id: leap-motion-brz
+        name: Présentation Processing Leap Motion au Breizhcamp
+        relative-url: Pres-Processsing-Hermes-Leap/index.html
+        lang: French
+        year:
+      - id: air-breakout-brz
+        name: projet associé Air Breakout
+        url: https://github.com/cfalguiere/Air-Breakout
+        lang:
+        year:
+
