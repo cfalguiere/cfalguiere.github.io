@@ -13,7 +13,7 @@ groups:
 
 
   - id: clojure
-    name: Présentations Clojure
+    name: Clojure
     items:
       - id: clojure-di
         name: Présentation Clojure et Dependency Ingestion
@@ -22,7 +22,7 @@ groups:
         year:
 
   - id: devops
-    name: Présentations Devops
+    name: Devops
     items:
       - id: perf-ht
         name: Performances au Human Talks
@@ -46,7 +46,7 @@ groups:
         year: 2014
 
   - id: leap-motion
-    name: Présentations Devops
+    name: Leap Motion
     items:
       - id: leap-motion-brz
         name: Présentation Processing Leap Motion au Breizhcamp
