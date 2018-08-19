@@ -4,7 +4,7 @@ selected
 -->
 
     <div style="float:left;">
-      <svg height="50" width="50">
+      <svg height="70" width="70">
           <text fill="white" font-family="Verdana" font-size="32"
               x="50%" y="50%"
               alignment-baseline="middle"
@@ -18,7 +18,7 @@ selected
     </div>
 
     <div style="float:left;">
-      <svg height="50" width="50">
+      <svg height="70" width="70">
           <text fill="white" font-family="Verdana" font-size="32"
               x="50%" y="50%"
               alignment-baseline="middle"
@@ -33,7 +33,7 @@ selected
 
 
     <div style="float:left;">
-      <svg height="50" width="350">
+      <svg height="50" width="310">
           <text fill="white" font-family="Verdana" font-size="32"
               x="0" y="20"
               >
