@@ -25,6 +25,12 @@ defaultThumbnail: /assets/blog/images/thumbnail-default-150x150.png
     <br>
     <small class="post-date" style="color:grey;">{{ post.date | date_to_string }}</small>
 
+    {% if post.excerpt != "" %}
+    <p style="background-color:#DD3664;color:white;font-style:italic;">
+      {{ post.excerpt }}
+    </p>
+    {% endif %}
+
   </div>
 
   <div style="clear: both;">
