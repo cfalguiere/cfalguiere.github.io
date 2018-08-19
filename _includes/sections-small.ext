@@ -1,0 +1,64 @@
+<!--
+parameters:
+selected
+-->
+
+<div class="categories-title">
+  <div style="clear: both;">
+  </div>
+
+  <div style="float:left;">
+    <svg height="50" width="150">
+      <polygon points="0,0 0,50 150,50 150,25 25,0" style="fill:#f19f00" />
+      <a xlink:href="{{ site.url }}/ToutEnAlgo" >
+        <text fill="black" font-family="Verdana" font-size="16">
+            <tspan x="20" y="40">Le Blog</tspan>
+        </text>
+      </a>
+      Sorry, your browser does not support inline SVG.
+    </svg>
+  </div>
+
+  <div style="margin-left:5px;float:left;">
+    <svg height="50" width="150">
+      <polygon points="0,0 0,50 150,50 150,25 25,0" style="fill:#ff5252" />
+      <a xlink:href="{{ site.url }}/ToutEnAlgo/workshop" >
+        <text fill="black" font-family="Verdana" font-size="16">
+            <tspan x="20" y="40">Les Ateliers</tspan>
+        </text>
+      </a>
+      Sorry, your browser does not support inline SVG.
+    </svg>
+  </div>
+
+  <div style="margin-left:5px;float:left;">
+    <svg height="50" width="150">
+      <polygon points="0,0 0,50 150,50 150,25 25,0" style="fill:#91a61d" />
+      <a xlink:href="{{ site.url }}/ToutEnAlgo/theme" >
+        <text fill="black" font-family="Verdana" font-size="16">
+            <tspan x="20" y="40">Les Thèmes</tspan>
+        </text>
+      </a>
+      Sorry, your browser does not support inline SVG.
+    </svg>
+  </div>
+
+  <div style="clear: both;">
+  </div>
+  <!--
+  <div class="categories-title">
+  </div>
+  -->
+</div>
+
+<div style="width: 100%; height: 5px;background-color:{{ include.selected }};" >
+
+</div>
+
+<hr>
+
+
+
+
+
+

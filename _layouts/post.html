@@ -1,0 +1,64 @@
+---
+layout: default
+defaultThumbnail: /ToutEnAlgo/assets/images/blog/thumbmail-empty-150x150.png
+---
+
+{% include sections-small.ext selected="#f19f00" %}
+
+<article class="post">
+  <img style="float:left;margin-right: 10px;margin-bottom: 5px;" src="{{ page.thumbnail | default: page.defaultThumbnail }}">
+
+  <small class="post-date" style="color:grey;">{{ page.date | date_to_string }}</small>
+  <h2>{{ page.title }}</h2>
+  <div class="date">
+    <p>
+      <div style="float: right;">
+        {% for tag in page.tags %}
+        <span style="background-color:#dd6600;font-style:italic;">&nbsp;&nbsp;{{ tag }}&nbsp;&nbsp;</span>&nbsp;&nbsp;
+        {% endfor %}
+      </div>
+      <div style="clear: both;">
+      </div>
+    </p>
+  </div>
+
+  <div class="entry">
+    <p>
+      {{ content }}
+    </p>
+  </div>
+
+  <hr>
+  <div class="entry">
+    <p>
+      <!-- <div class="Previous-next"> -->
+      <div style="float: left;">
+      {% if page.previous.url %}
+        <a class="previous" href="{{page.previous.url | relative_url }}">&#9668; Article {{page.previous.title}}</a>
+      {% endif %}
+      </div>
+      &nbsp;
+      <div style="float: right;">
+      {% if page.next.url %}
+        <a class="next" href="{{page.next.url | relative_url }}">Article {{page.next.title}} &#9658;</a>
+      {% endif %}
+      </div>
+    </p>
+  </div>
+
+  <div class="tags-expo-section" style="clear: both;">
+    <p>
+      <h4>
+        D'autres articles sur les mêmes sujets
+      </h4>
+      <ul class="tags-expo-posts">
+      {% for tag in page.tags %}
+        <li>
+          <a href="/ToutEnAlgo/theme/#{{ tag | slugify  }}" class="post-tag">Articles sur {{ tag }}</a>
+        </li>
+      {% endfor %}
+      </ul>
+    </p>
+  </div>
+
+</article>
