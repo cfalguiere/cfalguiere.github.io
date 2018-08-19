@@ -25,7 +25,7 @@ defaultThumbnail: /assets/blog/images/thumbnail-default-150x150.png
     <br>
     <small class="post-date" style="color:grey;">{{ post.date | date_to_string }}</small>
     {% if post.summary != '' %}
-      <br>
+      <br><br>
       <p style="color:white;font-style:italic;">
       {{ post.summary }}
       </p>
