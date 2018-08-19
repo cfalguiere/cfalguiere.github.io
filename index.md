@@ -41,7 +41,7 @@ defaultThumbnail: /assets/blog/images/thumbnail-default-150x150.png
 
 {% for post in site.posts offset: 1 limit: 3 %}
 
-<div style="width:27%;margin-left:5px;margin-right:10px;margin-bottom:15px;float:left;">
+<div style="width:25%;margin-left:5px;margin-right:10px;margin-bottom:15px;float:left;">
 
     <div style="margin-bottom:10px;">
       <a href="{{ post.url | relative_url  }}" ><img style="float:left;" src="{{ post.thumbnail | default: page.defaultThumbnail }}"> </a>
