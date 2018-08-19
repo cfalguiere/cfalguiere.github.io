@@ -46,8 +46,9 @@ defaultThumbnail: /assets/blog/images/thumbnail-default-150x150.png
     <div style="margin-bottom:10px;">
       <a href="{{ post.url | relative_url  }}" ><img style="float:left;" src="{{ post.thumbnail | default: page.defaultThumbnail }}"> </a>
     </div>
+
     <div style="padding-top:10px;">
-      <br><br>
+      <br>&nbsp;<br>
       {% for tag in post.tags %}
         <a href="/theme/index#{{ tag | slugify }}">
         <span style="background-color:#DD3664;color:white;font-style:italic;">&nbsp;&nbsp;{{ tag }}&nbsp;&nbsp;</span>&nbsp;&nbsp;
