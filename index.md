@@ -47,8 +47,12 @@ defaultThumbnail: /assets/blog/images/thumbnail-default-150x150.png
     <br>
     <small class="post-date" style="color:grey;">{{ post.date | date_to_string }}</small>
   </div>
+  <br>
 {% endfor %}
+<hr>
 </div>
+
+<hr>
 
 <div style="margin-left:5px;margin-bottom:20px;">
   <h3>Articles plus anciens</h3>
