@@ -8,7 +8,7 @@ assetsFolder: /assets/
 defaultThumbnail: /assets/blog/images/thumbnail-default-150x150.png
 ---
 
-{% for post in site.posts limit:3 %}
+{% for post in site.posts  %}
   <div style="margin-left:5px;float:left;">
     <a href="{{ post.url | relative_url  }}" ><img style="float:left;" src="{{ post.thumbnail | default: page.defaultThumbnail }}"> </a>
   </div>
@@ -34,7 +34,7 @@ defaultThumbnail: /assets/blog/images/thumbnail-default-150x150.png
 {% endfor %}
 
 <ul>
-  {% for post in site.posts offset:3 %}
+  {% for post in site.posts %}
   <div>
       <a href="/theme/index#{{ tag | slugify }}">
       <span style="background-color:#DD3664;color:white;font-style:italic;">&nbsp;&nbsp;{{ tag }}&nbsp;&nbsp;</span>&nbsp;&nbsp;
