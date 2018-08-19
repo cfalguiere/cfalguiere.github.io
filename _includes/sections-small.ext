@@ -39,13 +39,17 @@ selected
   -->
 </div>
 
-<div style="margin-left:5px;float:left;">
-  <svg height="5" width="150">
-  <polygon points="0,0 150,0 150,5 0,5" style="fill:#DD3664" />
-  </svg>
-</div>
-<div style="clear: both;">
-</div>
+{% for section in site.data.sections %}
+
+{% if include.selected == 'blog' %}
+  <div style="margin-left:5px;float:left;">
+    <svg height="5" width="150">
+    <polygon points="0,0 150,0 150,5 0,5" style="fill:#DD3664" />
+    </svg>
+  </div>
+  <div style="clear: both;">
+  </div>
+{% endif %}
 
 <!-- <div style="width: 100%; height: 5px;background-color:{{ include.selected }};" > -->
 <!-- </div> -->
