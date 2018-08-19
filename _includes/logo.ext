@@ -6,7 +6,8 @@ selected
     <div style="float:left;">
       <svg height="50" width="450">
           <text fill="white" font-family="Verdana" font-size="32"
-              rotate="0,90,180,270,0,90,180;270,0,90"
+              x="0" y="20"
+              rotate="0,90,180,270,0,90,180,270,0,90"
               >
               TOUTENALGO
           </text>
