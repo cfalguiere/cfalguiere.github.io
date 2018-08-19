@@ -33,7 +33,7 @@ assetsFolder: /assets/theme
         <li>
         <a class="post-title" href="{{ url }}">
           {{ item.name }}
-        </a> <span style="font-style:italic;">{{ item.lang | "" }} {{ item.year | "" }}</span>
+        </a> <span style="font-style:italic;">&nbsp;&nbsp;{{ item.lang | "" }}&nbsp;&nbsp;{{ item.year | "" }}</span>
         </li>
       {% endfor %}
     </ul>
