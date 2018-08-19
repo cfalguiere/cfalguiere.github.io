@@ -14,7 +14,7 @@ selected
         <polygon points="0,0 150,0 150,50 0,50" style="fill:#333333" />
         <a xlink:href="{{ site.url }}/{{ section.url }}" >
           <text fill="white" font-family="Verdana" font-size="16"
-              x="50%" y="100%"
+              x="50%" y="75%"
               alignment-baseline="middle"
               text-anchor="middle">
               {{ section.title }}
