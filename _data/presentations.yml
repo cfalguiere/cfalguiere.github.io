@@ -1,18 +1,3 @@
-- id: blog
-  title: Blog
-  color: #DD3664
-  url:
-
-- id: presentations
-  title: Présentations
-  color: #FE7650
-  url:
-
-- id: about
-  title: About
-  color: #91a61d
-  url: about
-
 urlPrefix: https://cfalguiere.github.io/Presentations/
 
 groups:
@@ -21,10 +6,10 @@ groups:
     name: Machine Learning
     items:
       - id: H2O
-        name: Présentation H2O à Devops France
-        url: TODO
+        name: Présentation H2O à Devoxx France
+        url: https://www.youtube.com/watch?v=pA3eZQzkzwo
         lang: French
-        year:
+        year: 2016
 
 
   - id: clojure
