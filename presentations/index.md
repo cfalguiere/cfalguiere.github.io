@@ -7,7 +7,7 @@ published: true
 assetsFolder: /assets/theme
 ---
 
-
+<!--
 <div class="tags-expo">
   <div class="tags-expo-list">
     {% for group in site.data.presentations.groups  %}
@@ -17,6 +17,7 @@ assetsFolder: /assets/theme
   </div>
   <hr/>
 </div>
+-->
 
   <hr/>
   <div class="tags-expo-section">
@@ -28,14 +29,15 @@ assetsFolder: /assets/theme
           {% assign url = site.data.presentations.url_prefix + item.relative_url %}
         {% else %}
           {% assign url = item.url %}
-        {% endif  %}
+        {% endif %}
         <a class="post-title" href="{{ url }}">
-      <li>
-        {{ item.name }}
-      <small class="post-date">{{ item.lang | "" }}</small>
-      <small class="post-date">{{ item.year | "" }}</small>
-      </li>
-      </a>
+        <li>
+          {{ item.name }}
+        <small class="post-date">{{ item.lang | "" }} {{ item.year | "" }}</small>
+        </li>
+        </a>
       {% endfor %}
     </ul>
+    <hr/>
     {% endfor %}
+  </div>
