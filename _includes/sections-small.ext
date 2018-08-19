@@ -7,46 +7,24 @@ selected
   <div style="clear: both;">
   </div>
 
-  <div style="margin-left:5px;float:left;">
-    <svg height="50" width="150">
-      <polygon points="0,0 150,0 150,50 0,50" style="fill:#333333" />
-      <a xlink:href="{{ site.url }}/le-petit-algonaute/" >
-        <text fill="white" font-family="Verdana" font-size="16">
-            <tspan x="20" y="40">Blog</tspan>
-        </text>
-      </a>
-      Sorry, your browser does not support inline SVG.
-    </svg>
-  </div>
-
-  <div style="margin-left:5px;float:left;">
-    <svg height="50" width="150">
-      <polygon points="0,0 150,0 150,50 0,50" style="fill:#333333" />
-      <a xlink:href="{{ site.url }}/le-petit-algonaute/about" >
-        <text fill="white" font-family="Verdana" font-size="16">
-            <tspan x="20" y="40">About</tspan>
-        </text>
-      </a>
-      Sorry, your browser does not support inline SVG.
-    </svg>
-  </div>
-
-  <div style="clear: both;">
-  </div>
-  <!--
-  <div class="categories-title">
-  </div>
-  -->
-
   {% for section in site.data.sections %}
 
     <div style="margin-left:5px;float:left;">
-      <svg height="5" width="150">
-      {% if include.selected == 'blog' %}
-          <polygon points="0,0 150,0 150,5 0,5" style="fill:#DD3664" />
-      {% else %}
-          <polygon points="0,0 150,0 150,5 0,5" style="fill:#333333" />
-      {% endif %}
+      <svg height="50" width="150">
+        <polygon points="0,0 150,0 150,50 0,50" style="fill:#333333" />
+        <a xlink:href="{{ site.url }}/{{ section.url }}" >
+          <text fill="white" font-family="Verdana" font-size="16">
+              <tspan x="20" y="40">About</tspan>
+          </text>
+        </a>
+        {% if include.selected == "blog" %}
+            <polygon points="0,0 150,0 150,5 0,5" style="fill:#91a61d" />
+        {% elseif include.selected == "about" %}
+            <polygon points="0,0 150,0 150,5 0,5" style="fill:#DD3664" />
+        {% else %}
+            <polygon points="0,0 150,0 150,5 0,5" style="fill:#333333" />
+        {% endif %}
+        Sorry, your browser does not support inline SVG.
       </svg>
     </div>
 
@@ -55,9 +33,6 @@ selected
   </div>
 
 </div>
-
-<!-- <div style="width: 100%; height: 5px;background-color:{{ include.selected }};" > -->
-<!-- </div> -->
 
 <hr>
 
