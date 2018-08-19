@@ -4,13 +4,38 @@ selected
 -->
 
     <div style="float:left;">
-      <svg height="50" width="450">
+      <svg height="50" width="50">
           <text fill="white" font-family="Verdana" font-size="32"
               x="0" y="20"
-              rotate="0,90,180,270,0,90,180,270,0,90"
+              rotate="0"
               >
-              TOUTENALGO
+              T
           </text>
         </a>
       </svg>
     </div>
+
+    <div style="float:left;">
+      <svg height="50" width="50">
+          <text fill="white" font-family="Verdana" font-size="32"
+              x="0" y="0"
+              rotate="90"
+              >
+              O
+          </text>
+        </a>
+      </svg>
+    </div>
+
+
+    <div style="float:left;">
+      <svg height="50" width="350">
+          <text fill="white" font-family="Verdana" font-size="32"
+              x="0" y="20"
+              >
+              UTENALGO
+          </text>
+        </a>
+      </svg>
+    </div>
+
