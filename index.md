@@ -33,7 +33,7 @@ defaultThumbnail: /assets/blog/images/thumbnail-default-150x150.png
     {% endif %}
   </div>
 
-  <div style="clear: both;margin-bottom:20px;">
+  <div style="clear: both;margin-bottom:10px;">
   </div>
 {% endfor %}
 
