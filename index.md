@@ -15,8 +15,10 @@ defaultThumbnail: /assets/blog/images/thumbnail-default-150x150.png
 
   <div style="margin-left:15px;float:left;">
     {% for tag in post.tags %}
+      <a href="/theme/index#{{ tag | slugify }}">
       <span style="background-color:#DD3664;font-style:italic;">&nbsp;&nbsp;{{ tag }}&nbsp;&nbsp;</span>&nbsp;&nbsp;
-      {% unless forloop.last %},{% endunless %}
+      </a>
+      {% unless forloop.last %}, {% endunless %}
     {% endfor %}
     <br>
     <a href="{{ post.url | relative_url  }}">{{ post.title }}</a>
