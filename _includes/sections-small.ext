@@ -9,7 +9,7 @@ selected
 
   <div style="margin-left:5px;float:left;">
     <svg height="50" width="150">
-      <polygon points="0,0 0,150 5,150 5,0" style="fill:#333333" />
+      <polygon points="0,0 150,0 150,50 0,50" style="fill:#333333" />
       <a xlink:href="{{ site.url }}/le-petit-algonaute/" >
         <text fill="white" font-family="Verdana" font-size="16">
             <tspan x="20" y="40">Blog</tspan>
@@ -21,7 +21,7 @@ selected
 
   <div style="margin-left:5px;float:left;">
     <svg height="50" width="150">
-      <polygon points="0,0 0,150 5,150 5,0" style="fill:#333333" />
+      <polygon points="0,0 150,0 150,50 0,50" style="fill:#333333" />
       <a xlink:href="{{ site.url }}/le-petit-algonaute/about" >
         <text fill="white" font-family="Verdana" font-size="16">
             <tspan x="20" y="40">A Propos</tspan>
@@ -41,7 +41,7 @@ selected
 
 <div style="margin-left:5px;float:left;">
   <svg height="5" width="150">
-  <polygon points="0,0 0,150 5,150 5,0" style="fill:#DD3664" />
+  <polygon points="0,0 150,0 150,5 0,5" style="fill:#DD3664" />
   </svg>
 </div>
 <div style="clear: both;">
