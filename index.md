@@ -10,7 +10,7 @@ defaultThumbnail: /assets/blog/images/thumbnail-default-150x150.png
 
 {% for post in site.posts limit: 1 %}
 
-  <div style="margin-left:5px;float:left;">
+  <div style="margin-left:5px;margin-bottom:5px;float:left;">
     <a href="{{ post.url | relative_url  }}" ><img style="float:left;" src="{{ post.thumbnail | default: page.defaultThumbnail }}"> </a>
   </div>
 
@@ -39,7 +39,7 @@ defaultThumbnail: /assets/blog/images/thumbnail-default-150x150.png
 
 {% for post in site.posts offset: 1 limit: 4 %}
 
-<div style="width:24%;margin-left:4px;margin-bottom:15px;float:left;">
+<div style="width:24%;margin-left:3px;margin-bottom:15px;float:left;">
 
     <div style="margin-bottom:5px;">
       <a href="{{ post.url | relative_url  }}" ><img style="float:left;" src="{{ post.thumbnail | default: page.defaultThumbnail }}"> </a>
