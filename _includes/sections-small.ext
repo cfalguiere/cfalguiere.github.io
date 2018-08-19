@@ -14,14 +14,10 @@ selected
         <polygon points="0,0 150,0 150,50 0,50" style="fill:#333333" />
         <a xlink:href="{{ site.url }}/{{ section.url }}" >
           <text fill="white" font-family="Verdana" font-size="16">
-              <tspan x="20" y="40">About</tspan>
+              <tspan x="20" y="40">{{ section.title }}</tspan>
           </text>
         </a>
-        {% if include.selected == "{{ section.id }}" %}
             <polygon points="0,0 150,0 150,5 0,5" style="fill:#91a61d" />
-        {% else %}
-            <polygon points="0,0 150,0 150,5 0,5" style="fill:#333333" />
-        {% endif %}
         Sorry, your browser does not support inline SVG.
       </svg>
     </div>
