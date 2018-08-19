@@ -33,12 +33,8 @@ defaultThumbnail: /assets/blog/images/thumbnail-default-150x150.png
 
 {% endfor %}
 
-
-<a href="https://cfalguiere.wordpress.com/"> Articles plus anciens sur Wordpress.com</a>
-
-
 <ul>
-  {% for post in site.posts offset: 3 %}
+  {% for post in site.posts offset:3 %}
   <div>
       <a href="/theme/index#{{ tag | slugify }}">
       <span style="background-color:#DD3664;color:white;font-style:italic;">&nbsp;&nbsp;{{ tag }}&nbsp;&nbsp;</span>&nbsp;&nbsp;
@@ -52,4 +48,7 @@ defaultThumbnail: /assets/blog/images/thumbnail-default-150x150.png
   </div>
   {% endfor %}
 </ul>
+
+<h2>Articles plus anciens</h2>
+<a href="https://cfalguiere.wordpress.com/"> Aller sur Wordpress.com</a>
 
