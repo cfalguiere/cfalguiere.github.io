@@ -36,6 +36,8 @@ defaultThumbnail: /assets/blog/images/thumbnail-default-150x150.png
 {% endfor %}
 
 
+<a href="https://cfalguiere.wordpress.com/"> Articles plus anciens sur Wordpress.com</a>
+
 <!--
 <ul>
   {% for post in site.posts %}
