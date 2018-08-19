@@ -10,7 +10,7 @@ selected
   <div style="margin-left:5px;float:left;">
     <svg height="50" width="150">
       <a xlink:href="{{ site.url }}/le-petit-algonaute/" >
-        <text fill="black" font-family="Verdana" font-size="16">
+        <text fill="white" font-family="Verdana" font-size="16">
             <tspan x="20" y="40">Blog</tspan>
         </text>
       </a>
@@ -21,7 +21,7 @@ selected
   <div style="margin-left:5px;float:left;">
     <svg height="50" width="150">
       <a xlink:href="{{ site.url }}/le-petit-algonaute/about" >
-        <text fill="black" font-family="Verdana" font-size="16">
+        <text fill="white" font-family="Verdana" font-size="16">
             <tspan x="20" y="40">A Propos</tspan>
         </text>
       </a>
@@ -39,7 +39,7 @@ selected
 
 <div style="margin-left:5px;float:left;">
   <svg height="5" width="150">
-  <polygon points="0,0 0,5 5,5 5,0" style="fill:#DD3664" />
+  <polygon points="0,0 0,150 5,150 5,0" style="fill:#DD3664" />
   </svg>
 </div>
 
