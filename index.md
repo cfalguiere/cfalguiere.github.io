@@ -53,7 +53,6 @@ defaultThumbnail: /assets/blog/images/thumbnail-default-150x150.png
       </a>
       {% unless forloop.last %}, {% endunless %}
     {% endfor %}
-  </div>
 
 </div>
 
