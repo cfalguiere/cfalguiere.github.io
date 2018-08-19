@@ -21,7 +21,7 @@ selected
           </text>
         </a>
         {% if include.selected == section.id %}
-            <polygon points="0,0 150,0 150,5 75,10 0,10 0,5" style="fill:#91a61d" />
+            <polygon points="0,0 150,0 150,5 75,10 0,5" style="fill:#91a61d" />
         {% endif %}
         Sorry, your browser does not support inline SVG.
       </svg>
