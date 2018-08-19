@@ -10,7 +10,7 @@ defaultThumbnail: /assets/blog/images/thumbnail-default-150x150.png
 
 {% for post in site.posts limit: 1 %}
 
- <div style="margin-left:5px;float:left;">
+  <div style="margin-left:5px;float:left;">
     <a href="{{ post.url | relative_url  }}" ><img style="float:left;" src="{{ post.thumbnail | default: page.defaultThumbnail }}"> </a>
   </div>
 
@@ -33,14 +33,13 @@ defaultThumbnail: /assets/blog/images/thumbnail-default-150x150.png
     {% endif %}
   </div>
 
-  <div style="clear: both;">
+  <div style="clear: both;margin-bottom:20px;">
   </div>
 {% endfor %}
 
 {% for post in site.posts offset: 1 limit: 4 %}
 
-<div style="width:50%;">
-
+<div style="width:300;">
 
   <div style="margin-left:5px;float:left;">
     <a href="{{ post.url | relative_url  }}" ><img style="float:left;" src="{{ post.thumbnail | default: page.defaultThumbnail }}"> </a>
