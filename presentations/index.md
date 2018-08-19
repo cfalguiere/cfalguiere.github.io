@@ -33,9 +33,8 @@ assetsFolder: /assets/theme
         <a class="post-title" href="{{ url }}">
         <li>
           {{ item.name }}
-        <small class="post-date">{{ item.lang | "" }} {{ item.year | "" }}</small>
         </li>
-        </a>
+        </a> {{ item.lang | "" }} {{ item.year | "" }}
       {% endfor %}
     </ul>
     <hr/>
