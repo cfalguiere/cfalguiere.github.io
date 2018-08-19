@@ -24,7 +24,7 @@ defaultThumbnail: /assets/blog/images/thumbnail-default-150x150.png
     <a href="{{ post.url | relative_url  }}">{{ post.title }}</a>
     <br>
     <small class="post-date" style="color:grey;">{{ post.date | date_to_string }}</small>
-    {% if ! post.summary.empty? %}
+    {% if post.summary != '' %}
       <br>
       <p style="color:white;font-style:italic;">
       {{ post.summary }}
