@@ -1,0 +1,23 @@
+- id: linkedin
+  icon: https://cfalguiere.files.wordpress.com/2014/06/linkedin_icon.png
+  title: LinkedIn
+  url: http://fr.linkedin.com/in/claudefalguiere
+  group: perso
+
+- id: presentations
+  icon: https://cfalguiere.files.wordpress.com/2013/05/tmp-logo-github.png?w=16&zoom=2
+  title: Github
+  url: https://github.com/cfalguiere
+  group: perso
+
+- id: twitter
+  icon: https://twitter.com/favicon.ico
+  title: Twitter
+  url: http://twitter.com/cfalguiere
+  group: perso
+
+- id: wordpress
+  title: Ancien blog sur Wordpress
+  url: https://cfalguiere.wordpress.com
+  group: perso
+
