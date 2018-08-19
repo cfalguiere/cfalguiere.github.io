@@ -4,15 +4,9 @@ title: Landpage
 date: '2017-12-29 11:30:00 CET'
 category: Landpage
 published: true
-assetsFolder: /ToutEnAlgo/assets/
-defaultThumbnail: /ToutEnAlgo/assets/images/blog/thumbmail-empty-150x150.png
+assetsFolder: /assets/
+defaultThumbnail: /assets/images/blog/thumbmail-empty-150x150.png
 ---
-
-<h1>
-A la Une
-</h1>
-
-
 
 <table>
   {% for post in site.posts %}
