@@ -26,7 +26,7 @@ defaultThumbnail: /assets/blog/images/thumbnail-default-150x150.png
     <small class="post-date" style="color:grey;">{{ post.date | date_to_string }}</small>
   </div>
 
-  <div style="margin-left:15px;float:left;">
+  <div style="margin-left:15px;width=450px;float:left;">
     {% if post.excerpt != "" %}
     <p style="color:white;font-style:italic;">
       {{ post.excerpt }}
