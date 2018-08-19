@@ -32,7 +32,8 @@ assetsFolder: /assets/theme
         <a class="post-title" href="{{ url }}">
       <li>
         {{ item.name }}
-      <small class="post-date">{{ post.date | date_to_string }}</small>
+      <small class="post-date">{{ item.lang | "" }}</small>
+      <small class="post-date">{{ item.year | "" }}</small>
       </li>
       </a>
       {% endfor %}
