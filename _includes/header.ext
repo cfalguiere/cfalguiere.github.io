@@ -1,8 +1,8 @@
 <div id="title">
 <center>
   <div style="margin-right:15px;float:left;width:75%">
-    <a href="{{ site.url }}/ToutEnAlgo">
-      <img style="margin-bottom:10px;" src="/{{ site.title | default: site.github.repository_name }}/assets/images/logo-toutenalgo-white-1000x200.png">
+    <a href="{{ site.url }}/">
+      <img style="margin-bottom:10px;" src="/{{ site.title | default: site.github.repository_name }}/assets/images/header.png">
     </a>
   </div>
 </center>

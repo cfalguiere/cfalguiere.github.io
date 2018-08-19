@@ -7,10 +7,10 @@ selected
   <div style="clear: both;">
   </div>
 
-  <div style="float:left;">
+  <div style="margin-left:5px;float:left;">
     <svg height="50" width="150">
-      <polygon points="0,0 0,50 150,50 150,25 25,0" style="fill:#f19f00" />
-      <a xlink:href="{{ site.url }}/ToutEnAlgo" >
+      <polygon points="0,0 0,50 150,50 150,25 25,0" style="fill:#DD3664" />
+      <a xlink:href="{{ site.url }}/le-petit-algonaute/" >
         <text fill="black" font-family="Verdana" font-size="16">
             <tspan x="20" y="40">Le Blog</tspan>
         </text>
@@ -21,22 +21,10 @@ selected
 
   <div style="margin-left:5px;float:left;">
     <svg height="50" width="150">
-      <polygon points="0,0 0,50 150,50 150,25 25,0" style="fill:#ff5252" />
-      <a xlink:href="{{ site.url }}/ToutEnAlgo/workshop" >
-        <text fill="black" font-family="Verdana" font-size="16">
-            <tspan x="20" y="40">Les Ateliers</tspan>
-        </text>
-      </a>
-      Sorry, your browser does not support inline SVG.
-    </svg>
-  </div>
-
-  <div style="margin-left:5px;float:left;">
-    <svg height="50" width="150">
       <polygon points="0,0 0,50 150,50 150,25 25,0" style="fill:#91a61d" />
-      <a xlink:href="{{ site.url }}/ToutEnAlgo/theme" >
+      <a xlink:href="{{ site.url }}/le-petit-algonaute/about" >
         <text fill="black" font-family="Verdana" font-size="16">
-            <tspan x="20" y="40">Les Thèmes</tspan>
+            <tspan x="20" y="40">A Propos</tspan>
         </text>
       </a>
       Sorry, your browser does not support inline SVG.
