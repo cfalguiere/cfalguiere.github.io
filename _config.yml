@@ -3,3 +3,5 @@ theme: jekyll-theme-midnight
 permalink: blog/:year/:month/:day/:title
 
 prefix: /
+
+google_analytics: UA-124266370-1
