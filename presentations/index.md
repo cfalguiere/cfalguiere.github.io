@@ -30,11 +30,11 @@ assetsFolder: /assets/theme
         {% else %}
           {% assign url = item.url %}
         {% endif %}
-        <a class="post-title" href="{{ url }}">
         <li>
+        <a class="post-title" href="{{ url }}">
           {{ item.name }}
+        </a> <span style="font-style:italic;">{{ item.lang | "" }} {{ item.year | "" }}</span>
         </li>
-        </a> {{ item.lang | "" }} {{ item.year | "" }}
       {% endfor %}
     </ul>
     <hr/>

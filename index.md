@@ -34,6 +34,7 @@ defaultThumbnail: /assets/blog/images/thumbnail-default-150x150.png
 {% endfor %}
 
 <div style="margin-left:5px;margin-bottom:20px;">
+<br>
 {% for post in site.posts offset: 3 %}
   <div>
     {% for tag in post.tags %}
@@ -51,8 +52,6 @@ defaultThumbnail: /assets/blog/images/thumbnail-default-150x150.png
 {% endfor %}
 <hr>
 </div>
-
-<hr>
 
 <div style="margin-left:5px;margin-bottom:20px;">
   <h3>Articles plus anciens</h3>
