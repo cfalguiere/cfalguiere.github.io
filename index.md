@@ -5,7 +5,7 @@ date: '2017-12-29 11:30:00 CET'
 category: Landpage
 published: true
 assetsFolder: /assets/
-defaultThumbnail: /assets/images/blog/thumbmail-empty-150x150.png
+defaultThumbnail: /assets/images/blog/images/thumbnail-default-150x150.png
 ---
 
 <table>
