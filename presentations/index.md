@@ -22,7 +22,7 @@ assetsFolder: /assets/theme
   <hr/>
   <div class="tags-expo-section">
     {% for group in site.data.presentations.groups  %}
-    <h2 id="{{ group.name | slugify }}">{{ group.name }}</h2>
+    <h3 id="{{ group.name | slugify }}">{{ group.name }}</h3>
     <ul class="tags-expo-posts">
       {% for item in group.items %}
         {% if item.relative_url != "" %}

@@ -33,8 +33,7 @@ defaultThumbnail: /assets/blog/images/thumbnail-default-150x150.png
 
 {% endfor %}
 
-<ul>
-  {% for post in site.posts offset: 3 %}
+{% for post in site.posts offset: 3 %}
   <div>
     {% for tag in post.tags %}
       <a href="/theme/index#{{ tag | slugify }}">
@@ -47,9 +46,8 @@ defaultThumbnail: /assets/blog/images/thumbnail-default-150x150.png
     <br>
     <small class="post-date" style="color:grey;">{{ post.date | date_to_string }}</small>
   </div>
-  {% endfor %}
-</ul>
+{% endfor %}
 
-<h2>Articles plus anciens</h2>
+<h3>Articles plus anciens</h3>
 <a href="https://cfalguiere.wordpress.com/"> Aller sur Wordpress.com</a>
 
