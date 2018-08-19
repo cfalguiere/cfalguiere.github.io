@@ -6,7 +6,7 @@
 - id: presentations
   title: Présentations
   color: #FE7650
-  url:
+  url: presentations
 
 - id: about
   title: About
