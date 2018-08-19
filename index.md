@@ -41,11 +41,11 @@ defaultThumbnail: /assets/blog/images/thumbnail-default-150x150.png
 
 <div width="150" style="margin-left:5px;margin-bottom:5px;float:left;">
 
-  <div style="float:left;">
+  <div style="margin-bottom:15px;">
     <a href="{{ post.url | relative_url  }}" ><img style="float:left;" src="{{ post.thumbnail | default: page.defaultThumbnail }}"> </a>
   </div>
 
-  <div style="margin-top:15px;;">
+  <div>
     <a href="{{ post.url | relative_url  }}">{{ post.title }}</a>
     <br>
     <small class="post-date" style="color:grey;">{{ post.date | date_to_string }}</small>
