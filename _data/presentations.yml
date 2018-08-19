@@ -24,6 +24,16 @@ groups:
   - id: devops
     name: Présentations Devops
     items:
+      - id: perf-ht
+        name: Performances au Human Talks
+        url: https://cfalguiere.wordpress.com/2015/04/12/talk-performances-au-human-talks/
+        lang: French
+        year: 2015
+      - id: perf-ht
+        name: Monitoring at Devoxx 2014
+        url: https://cfalguiere.wordpress.com/2014/11/13/monitoring-at-devoxx-2014/
+        lang: French
+        year: 2015
       - id: devops-wit
         name: Présentation Devops au Women Techmakers
         relative-url: Pres-Devops-Women-Techmakers/index.html
