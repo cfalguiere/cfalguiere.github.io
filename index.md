@@ -14,13 +14,13 @@ defaultThumbnail: /assets/blog/images/thumbnail-default-150x150.png
   </div>
 
   <div style="margin-left:15px;float:left;">
+    {% for tag in post.tags %}
+      <span style="background-color:#DD3664;font-style:italic;">&nbsp;&nbsp;{{ tag }}&nbsp;&nbsp;</span>&nbsp;&nbsp;
+      {% unless forloop.last %},{% endunless %}
+    {% endfor %}
     <br>
     <a href="{{ post.url | relative_url  }}">{{ post.title }}</a>
     <br>
-    {% for tag in post.tags %}
-      <span style="font-style:italic;">&nbsp;&nbsp;{{ tag }}&nbsp;&nbsp;</span>&nbsp;&nbsp;
-      {% unless forloop.last %},{% endunless %}
-    {% endfor %}
     <small class="post-date" style="color:grey;">{{ post.date | date_to_string }}</small>
 
   </div>
