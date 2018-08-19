@@ -56,6 +56,9 @@ defaultThumbnail: /assets/blog/images/thumbnail-default-150x150.png
     <small class="post-date" style="color:grey;">{{ post.date | date_to_string }}</small>
   </div>
 
+  <div style="clear: left;">
+  </div>
+
 {% endfor %}
 
 <div style="clear: both;">
