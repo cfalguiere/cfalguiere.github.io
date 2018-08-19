@@ -17,22 +17,11 @@ selected
               <tspan x="20" y="40">About</tspan>
           </text>
         </a>
-        {% if include.selected == "{{ section.id }}" %}
-            {% if include.selected == "blog" %}
-              <polygon points="0,0 150,0 150,5 0,5" style="fill:#91a61d" />
-            {% elseif include.selected == "about" %}
-              <polygon points="0,0 150,0 150,5 0,5" style="fill:#DD3664" />
-            {% else %}
-              <polygon points="0,0 150,0 150,5 0,5" style="fill:#333333" />
-            {% endif %}
-        {% else %}
-            <polygon points="0,0 150,0 150,5 0,5" style="fill:#333333" />
-        {% endif %}
-        Sorry, your browser does not support inline SVG.
       </svg>
     </div>
 
   {% endfor %}
+
   <div style="clear: both;">
   </div>
 
