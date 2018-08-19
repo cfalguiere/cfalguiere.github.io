@@ -1,0 +1,48 @@
+<!--
+parameters:
+selected
+-->
+
+    <div style="float:left;">
+      <svg height="50" width="50">
+          <text fill="white" font-family="Verdana" font-size="32"
+              x="50%" y="50%"
+              alignment-baseline="middle"
+              text-anchor="middle"
+              glyph-orientation-horizontal="0">
+              T
+          </text>
+        </a>
+      </svg>
+    </div>
+
+    <div style="float:left;">
+      <svg height="50" width="50">
+          <text fill="white" font-family="Verdana" font-size="32"
+              x="50%" y="50%"
+              alignment-baseline="middle"
+              text-anchor="middle"
+              glyph-orientation-horizontal="90">
+              O
+          </text>
+        </a>
+      </svg>
+    </div>
+
+    <div style="float:left;">
+      <svg height="50" width="50">
+          <text fill="white" font-family="Verdana" font-size="32"
+              x="50%" y="50%"
+              alignment-baseline="middle"
+              text-anchor="middle"
+              glyph-orientation-horizontal="180">
+              U
+          </text>
+        </a>
+      </svg>
+    </div>
+
+
+
+
+
