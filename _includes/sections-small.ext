@@ -9,10 +9,9 @@ selected
 
   <div style="margin-left:5px;float:left;">
     <svg height="50" width="150">
-      <polygon points="0,0 0,50 150,50 150,25 25,0" style="fill:#DD3664" />
       <a xlink:href="{{ site.url }}/le-petit-algonaute/" >
         <text fill="black" font-family="Verdana" font-size="16">
-            <tspan x="20" y="40">Le Blog</tspan>
+            <tspan x="20" y="40">Blog</tspan>
         </text>
       </a>
       Sorry, your browser does not support inline SVG.
@@ -21,7 +20,6 @@ selected
 
   <div style="margin-left:5px;float:left;">
     <svg height="50" width="150">
-      <polygon points="0,0 0,50 150,50 150,25 25,0" style="fill:#91a61d" />
       <a xlink:href="{{ site.url }}/le-petit-algonaute/about" >
         <text fill="black" font-family="Verdana" font-size="16">
             <tspan x="20" y="40">A Propos</tspan>
@@ -39,7 +37,13 @@ selected
   -->
 </div>
 
-<div style="width: 100%; height: 5px;background-color:{{ include.selected }};" >
+<div style="margin-left:5px;float:left;">
+  <svg height="5" width="150">
+  <polygon points="0,0 0,5 5,5 5,0" style="fill:#DD3664" />
+  </svg>
+</div>
+
+<!-- <div style="width: 100%; height: 5px;background-color:{{ include.selected }};" > -->
 
 </div>
 
