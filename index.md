@@ -33,6 +33,7 @@ defaultThumbnail: /assets/blog/images/thumbnail-default-150x150.png
 
 {% endfor %}
 
+<div style="margin-left:5px;margin-bottom:20px;">
 {% for post in site.posts offset: 3 %}
   <div>
     {% for tag in post.tags %}
@@ -47,7 +48,10 @@ defaultThumbnail: /assets/blog/images/thumbnail-default-150x150.png
     <small class="post-date" style="color:grey;">{{ post.date | date_to_string }}</small>
   </div>
 {% endfor %}
+</div>
 
-<h3>Articles plus anciens</h3>
-<a href="https://cfalguiere.wordpress.com/"> Aller sur Wordpress.com</a>
+<div style="margin-left:5px;margin-bottom:20px;">
+  <h3>Articles plus anciens</h3>
+  <a href="https://cfalguiere.wordpress.com/"> Aller sur Wordpress.com</a>
+</div>
 
