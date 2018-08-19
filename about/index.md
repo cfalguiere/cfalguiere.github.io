@@ -9,7 +9,7 @@ assetsFolder: /assets/about
 
 Site personnel de Claude Falguière
 
-{% assign links = site.links | where:'group', "perso" %}
+{% assign links = site.data.links | where:'group', "perso" %}
 
 <ul class="articles-list">
   {% for link in links %}
