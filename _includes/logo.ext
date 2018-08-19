@@ -4,9 +4,9 @@ selected
 -->
 
     <div style="float:left;">
-      <svg height="70" width="450">
+      <svg height="70" width="600">
           <text fill="white" font-family="Verdana" font-size="32"
-              textlength="450"
+              textlength="600"
               >
               TOUTENALGO
           </text>
