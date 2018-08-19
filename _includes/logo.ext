@@ -4,40 +4,12 @@ selected
 -->
 
     <div style="float:left;">
-      <svg height="70" width="70">
-          <text fill="white" font-family="Verdana" font-size="32"
-              x="50%" y="50%"
-              alignment-baseline="middle"
-              text-anchor="middle"
-              rotate="0"
-              >
-              T
-          </text>
-        </a>
-      </svg>
-    </div>
-
-    <div style="float:left;">
-      <svg height="70" width="70">
-          <text fill="white" font-family="Verdana" font-size="32"
-              x="50%" y="50%"
-              alignment-baseline="middle"
-              text-anchor="middle"
-              rotate="90"
-              >
-              O
-          </text>
-        </a>
-      </svg>
-    </div>
-
-
-    <div style="float:left;">
-      <svg height="50" width="310">
+      <svg height="50" width="450">
           <text fill="white" font-family="Verdana" font-size="32"
               x="0" y="20"
+              textlength="450"
               >
-              UTENALGO
+              TOUTenALGO
           </text>
         </a>
       </svg>
