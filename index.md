@@ -49,6 +49,7 @@ defaultThumbnail: /assets/blog/images/thumbnail-default-150x150.png
     <a href="{{ post.url | relative_url  }}">{{ post.title }}</a>
     <br>
     <small class="post-date" style="color:grey;">{{ post.date | date_to_string }}</small>
+    <br>
     {% for tag in post.tags %}
       <a href="/theme/index#{{ tag | slugify }}">
       <span style="background-color:#DD3664;color:white;font-style:italic;">&nbsp;&nbsp;{{ tag }}&nbsp;&nbsp;</span>&nbsp;&nbsp;
