@@ -55,6 +55,8 @@ defaultThumbnail: /assets/blog/images/thumbnail-default-150x150.png
 
 <div style="margin-left:5px;margin-bottom:20px;">
   <h3>Articles plus anciens</h3>
+  <li>
   <a href="https://cfalguiere.wordpress.com/"> Aller sur Wordpress.com</a>
+  </li>
 </div>
 
