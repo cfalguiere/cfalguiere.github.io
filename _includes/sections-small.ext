@@ -13,8 +13,11 @@ selected
       <svg height="50" width="150">
         <polygon points="0,0 150,0 150,50 0,50" style="fill:#333333" />
         <a xlink:href="{{ site.url }}/{{ section.url }}" >
-          <text fill="white" font-family="Verdana" font-size="16">
-              <tspan x="20" y="40">{{ section.title }}</tspan>
+          <text fill="white" font-family="Verdana" font-size="16"
+              x="50%" y="50%"
+              alignment-baseline="middle"
+              text-anchor="middle">
+              {{ section.title }}
           </text>
         </a>
         {% if include.selected == section.id %}
