@@ -7,7 +7,6 @@ selected
       <svg height="50" width="450">
           <text fill="white" font-family="Verdana" font-size="32"
               rotate="0,90,180,270,0,90,180;270,0,90"
-              textLength="450"
               >
               TOUTENALGO
           </text>
