@@ -9,12 +9,12 @@ defaultThumbnail: /assets/blog/images/thumbnail-default-150x150.png
   <img style="float:left;margin-right: 10px;margin-bottom: 5px;" src="{{ page.thumbnail | default: page.defaultThumbnail }}">
 
   <small class="post-date" style="color:grey;">{{ page.date | date_to_string }}</small>
-  <h2>{{ page.title }}</h2>
+  <h2 style="margin-left: 5px;">{{ page.title }}</h2>
   <div class="date">
     <p>
       <div style="float: right;">
         {% for tag in page.tags %}
-        <span style="background-color:#dd6600;font-style:italic;">&nbsp;&nbsp;{{ tag }}&nbsp;&nbsp;</span>&nbsp;&nbsp;
+        <span style="background-color:#DD3664;font-style:italic;">&nbsp;&nbsp;{{ tag }}&nbsp;&nbsp;</span>&nbsp;&nbsp;
         {% endfor %}
       </div>
       <div style="clear: both;">
