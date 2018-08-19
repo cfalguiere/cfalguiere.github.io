@@ -1,4 +1,4 @@
-urlPrefix: https://cfalguiere.github.io/Presentations/
+url_prefix: https://cfalguiere.github.io/Presentations/
 
 groups:
 
@@ -17,7 +17,7 @@ groups:
     items:
       - id: clojure-di
         name: Présentation Clojure et Dependency Ingestion
-        relative-url: Pres-DI-Clojure/index.html
+        relative_url: Pres-DI-Clojure/index.html
         lang: French
         year:
 
@@ -36,7 +36,7 @@ groups:
         year: 2015
       - id: devops-wit
         name: Présentation Devops au Women Techmakers
-        relative-url: Pres-Devops-Women-Techmakers/index.html
+        relative_url: Pres-Devops-Women-Techmakers/index.html
         lang: French
         year: 2014
       - id: monitoring-brz
@@ -50,7 +50,7 @@ groups:
     items:
       - id: leap-motion-brz
         name: Présentation Processing Leap Motion au Breizhcamp
-        relative-url: Pres-Processsing-Hermes-Leap/index.html
+        relative_url: Pres-Processsing-Hermes-Leap/index.html
         lang: French
         year:
       - id: air-breakout-brz
