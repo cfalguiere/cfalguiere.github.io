@@ -14,7 +14,7 @@ banner: /assets/images/logo-white-tr-image-1200-600.png
 | Nom                                        | Description                                           |
 | ------------------------------------------- | ----------------------------------------------------- |
 | [Blog](/blog/) | Les articles postés du plus récent au plus ancien |
-| [Posters](/posters/) | Les fiches imprimables |
+| [Photos](/photos/) | Les photos |
+| [Présentations](/presentations/) | Les présentations |
 | [Tags](/tags/) | Les articles postés par sujet |
 | [Catégories](/categories/) | Les articles postés par type |
-

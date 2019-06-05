@@ -7,7 +7,7 @@ assets_folder: /assets/posters/
 ---
 
 <div>
-  <span style="font-size:2em;font-family: 'Dancing Script', cursive;font-weight: bold;">Les posters</span>
+  <span style="font-size:2em;font-family: 'Source Sans Pro, sans-serif;font-weight: bold;">Les photos</span>
 
 </div>
 
