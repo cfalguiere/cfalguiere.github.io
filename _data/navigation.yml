@@ -2,6 +2,8 @@
 main:
   - title: "Blog"
     url: /blog/
+  - title: "Présentations"
+    url: /presentations/
   - title: "Photos"
     url: /photos/
   - title: "Qui suis je ?"

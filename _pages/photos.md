@@ -1,5 +1,5 @@
 ---
-permalink: /posters/
+permalink: /photos/
 title: "Photos"
 layout: splash
 classes: wide
