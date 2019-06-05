@@ -6,11 +6,11 @@
         <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
         -->
         <a class="site-title" href="{{ '/' | relative_url }}">
-          <figure style="margin-left: 0em;margin-top: 0em;margin-bottom: 0em;">
+           <figure style="margin-left: 0em;margin-top: 0em;margin-bottom: 0em;">
               <img src="{{site.baseurl}}{{page.banner | default: site.banner_short}}">
            </figure>
         </a>
-
+        <br/>
         <ul class="visible-links">
           {%- for link in site.data.navigation.main -%}
             {%- if link.url contains '://' -%}
