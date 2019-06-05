@@ -6,7 +6,7 @@ classes: wide
 assets_folder: /assets/posters/
 ---
 <div>
-  <span style="font-size:2em;font-family: 'Source Sans Pro, sans-serif;font-weight: bold;">Les présentations</span>
+  <span style="font-size:2em;font-family: 'Source Sans Pro', sans-serif;font-weight: bold;">Les présentations</span>
 
 </div>
 {% for group in site.data.presentations.groups %}
