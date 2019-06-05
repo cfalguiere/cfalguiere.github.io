@@ -1,3 +1,5 @@
+links:
+  
 - id: linkedin
   icon: https://cfalguiere.files.wordpress.com/2014/06/linkedin_icon.png
   title: LinkedIn
@@ -19,4 +21,4 @@
 - id: wordpress
   title: Ancien blog sur Wordpress
   url: https://cfalguiere.wordpress.com
-group: perso
+  group: perso
