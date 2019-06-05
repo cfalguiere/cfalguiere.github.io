@@ -1,2 +1,1 @@
-# cfalguiere.github.io
-Blog
+Le site est là http://le-pixel-bleu.fr

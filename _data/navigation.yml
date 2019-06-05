@@ -1,0 +1,25 @@
+# main links
+main:
+  - title: "Blog"
+    url: /blog/
+  - title: "Photos"
+    url: /photos/
+  - title: "Qui suis je ?"
+    url: /about/
+  # - title: "Sample Posts"
+  #   url: /year-archive/
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/
+
+landpage:
+  - title: "Blog"
+    url: /blog/
+    image: landpage-actualites-w595.png
+  - title: "Photos"
+    url: /photos/
+    image: landpage-posters-w595.png
+  - title: "Qui suis je ?"
+    url: /about/
+    image: landpage-about-w595.png

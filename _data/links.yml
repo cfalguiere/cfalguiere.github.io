@@ -19,5 +19,4 @@
 - id: wordpress
   title: Ancien blog sur Wordpress
   url: https://cfalguiere.wordpress.com
-  group: perso
-
+group: perso
