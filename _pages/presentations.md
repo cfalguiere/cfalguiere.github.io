@@ -8,12 +8,13 @@ banner: /assets/images/banner-1200-300.png
 ---
 {% for group in site.data.presentations.groups %}
 {{ group.name }}
-
-test
+  {% for item in group.items %}
+    test
+  {% endfor %}
 {% endfor %}
 
-{% assign group = site.data.presentations.groups['Clojure'] %}
-{% for item in group.items %}
+{% assign group = site.data.presentations.groups[1] %}
+{% assign item = group[1] %}
   {% if item.relative_url != "" %}
     [{{ item.name }}]({{ site.baseurl }}{{ item.relative_url }})   
     {{ item.lang }}  {{ item.year }}
@@ -21,4 +22,3 @@ test
     [{{ item.name }}]({{ item.url }})   
     {{ item.lang }}  {{ item.year }}
   {% endif %}
-{% endfor %}
