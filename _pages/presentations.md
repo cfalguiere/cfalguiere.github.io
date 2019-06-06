@@ -8,17 +8,16 @@ banner: /assets/images/banner-1200-300.png
 ---
 {% for group in site.data.presentations.groups %}
 {{ group.name }}
-  {% for item in group.items %}
-    test
-  {% endfor %}
-{% endfor %}
 
-{% assign group = site.data.presentations.groups[1] %}
-{% assign item = group[1] %}
+  {% for item in group.items %}
+
   {% if item.relative_url != "" %}
-    [{{ item.name }}]({{ site.baseurl }}{{ item.relative_url }})   
-    {{ item.lang }}  {{ item.year }}
+[{{ item.name }}]({{ site.baseurl }}{{ item.relative_url }})   
   {% else %}
-    [{{ item.name }}]({{ item.url }})   
-    {{ item.lang }}  {{ item.year }}
+[{{ item.name }}]({{ item.url }})   
   {% endif %}
+{{ item.lang }}  {{ item.year }}
+
+  {% endfor %}
+
+{% endfor %}
