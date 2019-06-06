@@ -11,11 +11,12 @@ banner: /assets/images/banner-1200-300.png
 
     {% for item in group.items %}
       {% if item.relative_url != "" %}
-        {% assign url = str.concat( site.baseurl, item.relative_url ) %}
+        [{{ item.name }}]({{ site.baseurl }}{{ item.relative_url }})   
+        {{ item.lang | "" }}  {{ item.year | "" }}
       {% else %}
-        {% assign url = item.url %}
+        [{{ item.name }}]({{ item.url }})   
+        {{ item.lang | "" }}  {{ item.year | "" }}
       {% endif %}
-      [{{ item.name }}]({{ url }})   {{ item.lang | "" }}  {{ item.year | "" }}
 
     {% endfor %}
 
