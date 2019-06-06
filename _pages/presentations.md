@@ -15,10 +15,7 @@ banner: /assets/images/banner-1200-300.png
       {% else %}
         {% assign url = item.url %}
       {% endif %}
-      <!--
       [{{ item.name }}]({{ url }})   {{ item.lang | "" }}  {{ item.year | "" }}
-      -->
-      <a href="{{ url }}" target="_blank">{{ item.name }}</a>
 
     {% endfor %}
 

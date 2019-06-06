@@ -50,9 +50,9 @@ groups:
         name: Présentation Processing Leap Motion au Breizhcamp
         relative_url: Pres-Processsing-Hermes-Leap/index.html
         lang: French
-        year:
+        year: -
       - id: air-breakout-brz
         name: projet associé Air Breakout
         url: https://github.com/cfalguiere/Air-Breakout
-        lang:
-        year:
+        lang: -
+        year: -

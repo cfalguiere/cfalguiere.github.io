@@ -1,12 +1,6 @@
 ---
 permalink: /about/
 title: "Qui suis je ?"
-
-layouts_gallery:
-  - url: https://fr.wikipedia.org/wiki/Licence_de_libre_diffusion
-    image_path: /assets/images/about/cc-licence.png
-    alt: "Les articles par tag"
-
 last_modified_at: 2019-04-06T16:20:00+02:00s
 author_profile: true
 author: cfalguiere
