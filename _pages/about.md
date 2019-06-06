@@ -12,14 +12,15 @@ author_profile: true
 author: cfalguiere
 banner: /assets/images/banner-1200-300.png
 ---
-
+<p>
 Je suis architecte spécialisée en Data Engineering et l’optimisation des performances applicatives dans la société de conseil Sentelis.
 
 Je recherche aussi des moyens fun d’apprendre l’informatique en utilisant des robots, le dessin ou la musique. Je suis mentor pour le Coder Dojo epour des ateliers de robotique et sur Arduino.
 <!-- site toutenalgo -->
 
 {% assign linkedin = site.data.links['linkedin']%}
-Vous trouverez plus d’informations sur mon profil [LinkedIn] ({{ linkedin.url }}) .
+Vous trouverez plus d’informations sur mon profil [LinkedIn]({{ linkedin.url }}) .
+</p>
 
 ## Plan du site
 
