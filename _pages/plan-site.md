@@ -2,10 +2,9 @@
 permalink: /plan/
 title: "Plan"
 excerpt: "Plan de site"
-
 last_modified_at: 2019-04-06T16:30:00+02:00s
 toc: true
-banner: /assets/images/logo-white-tr-image-1200-600.png
+banner: /assets/images/banner-1200-300.png
 ---
 
 
