@@ -18,7 +18,7 @@ assets_folder: /assets/posters/
       {% else %}
         {% assign url = item.url %}
       {% endif %}
-      {{ item.name }}   {{ item.lang | "" }}  {{ item.year | "" }}
+      [{{ item.name }}]({{ url }})   {{ item.lang | "" }}  {{ item.year | "" }}
     {% endfor %}
 
 {% endfor %}
