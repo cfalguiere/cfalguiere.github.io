@@ -14,7 +14,7 @@ assets_folder: /assets/posters/
 
     {% for item in group.items %}
       {% if item.relative_url != "" %}
-        {% assign url = site.data.presentations.url_prefix + item.relative_url %}
+        {% assign url = str.concat( site.data.presentations.url_prefix, item.relative_url ) %}
       {% else %}
         {% assign url = item.url %}
       {% endif %}
