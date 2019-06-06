@@ -1,14 +1,14 @@
 ---
 permalink: /presentations/
 title: "Presentations"
-layout: splash
 classes: wide
-assets_folder: /assets/posters/
+assets_folder: /assets/images/presentations/
 ---
 <div>
   <span style="font-size:2em;font-family: 'Source Sans Pro', sans-serif;font-weight: bold;">Les présentations</span>
 
 </div>
+
 {% for group in site.data.presentations.groups %}
 {{ group.name }}
 
