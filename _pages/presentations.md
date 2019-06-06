@@ -18,7 +18,11 @@ assets_folder: /assets/posters/
       {% else %}
         {% assign url = item.url %}
       {% endif %}
+      <!--
       [{{ item.name }}]({{ url }})   {{ item.lang | "" }}  {{ item.year | "" }}
+      -->
+      <a href="{{url}}" target="_blank" class=".btn .btn--success .btn--large">{{ item.name }}</a>
+
     {% endfor %}
 
 {% endfor %}

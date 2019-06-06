@@ -19,7 +19,7 @@ Je suis architecte spécialisée en Data Engineering.
 Je recherche aussi des moyens fun d’apprendre l’informatique en utilisant des robots, le dessin ou la musique. Je suis mentor pour le Coder Dojo epour des ateliers de robotique et sur Arduino.
 <!-- site toutenalgo -->
 
-{% assign linkedin_url = site.data.authors[page.author] %}
+{% assign linkedin_url = site.data.authors[page.author].linkedin %}
 Vous trouverez plus d’informations sur mon profil [LinkedIn]({{ linkedin_url }}) .
 
 ## Plan du site
