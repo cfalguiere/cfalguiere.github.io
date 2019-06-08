@@ -27,4 +27,4 @@ Ce site est réalisé en utilisant Jekyll et le thème Minimal Mistakes.
 - [Jekyll](https://jekyllrb.com/)
 - [Minimal Mistakes](https://mmistakes.github.io/minimal-mistake)
 
-Un grans merci aux auteurs de ces logiciels Open Source et tous ceux qu'ils incluent. Ils me permettent de maintenir ce site très simplement et de l'héberger comme n'importe quel contenu statique.
+Un grand merci aux auteurs de ces logiciels Open Source et tous ceux qu'ils incluent. Ils me permettent de maintenir ce site très simplement et de l'héberger comme n'importe quel contenu statique.
