@@ -16,6 +16,8 @@ Je recherche aussi des moyens fun d’apprendre l’informatique en utilisant de
 {% assign linkedin_url = site.data.authors[page.author].linkedin %}
 Vous trouverez plus d’informations sur mon profil [LinkedIn]({{ linkedin_url }}) .
 
+Ce site prend la suite de [mon ancien site sous Wordpress](https://cfalguiere.wordpress.com).
+
 ## Plan du site
 
 [Plan du site]({{site.baseurl}}/plan/)
