@@ -1,10 +1,10 @@
 ---
-title: "Un nouveau cycle commence"
+title: "Un nouveau cycle commence, Le Pixel Bleu"
 categories:
   - Blog
 tags:
   -
-excerpt: Le blog se poursuit sur un nouveau support, cette fois ci en Jekyll
+excerpt: Le blog se poursuit sur ce nouveau support
 classes: wide
 assets_folder: /assets/
 ---
@@ -39,4 +39,4 @@ Entre temps, j'avais essayé une autre option pour un autre site lié à mes ate
 
 Ce site est fait de la même manière, Jekyll [Jekyll](https://jekyllrb.com/) et le thème  [Minimal Mistakes](https://mmistakes.github.io/minimal-mistake) et un habillage un peu différent.
 
-J'espère y mettre beaucoup de code. En attendant, il recence [diverses présentations](presentations/) faites depuis 2014.
+J'espère mettre beaucoup de code dans ce site et quelques autres trucs. En attendant, il recence [diverses présentations](presentations/) faites depuis 2014.
