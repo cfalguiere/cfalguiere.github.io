@@ -13,10 +13,12 @@ Je suis architecte spécialisée en Data Engineering.
 Je recherche aussi des moyens fun d’apprendre l’informatique en utilisant des robots, le dessin ou la musique. Je suis mentor pour le Coder Dojo epour des ateliers de robotique et sur Arduino.
 <!-- site toutenalgo -->
 
-{% assign linkedin_url = site.data.authors[page.author].linkedin %}
+{% assign author = site.data.authors[page.author] %}
+{% assign linkedin_url = author.linkedin %}
 Vous trouverez plus d’informations sur mon profil [LinkedIn]({{ linkedin_url }}) .
 
-Ce site prend la suite de [mon ancien site sous Wordpress](https://cfalguiere.wordpress.com).
+{% assign wp_url = author.wordpress %}
+Ce site prend la suite de [mon ancien site sous Wordpress]({{ wp_url }}).
 
 ## Plan du site
 

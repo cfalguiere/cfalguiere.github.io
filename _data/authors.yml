@@ -2,9 +2,10 @@
 
 cfalguiere:
   name        : "Claude Falguière"
-  uri         : "https://github.com/cfalguiere"
+  uri         : "https://cfalguiere.github.io"
   bio         : "Fun with coding"
   avatar      : "/assets/images/authors/cfalguiere-300.jpeg"
   twitter     : "cfalguiere"
   linkedin    : "http://fr.linkedin.com/in/claudefalguiere"
+  github      : "https://github.com/cfalguiere"
   wordpress   : "https://cfalguiere.wordpress.com"
