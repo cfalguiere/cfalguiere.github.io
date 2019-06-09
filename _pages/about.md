@@ -18,7 +18,7 @@ Je recherche aussi des moyens fun d’apprendre l’informatique en utilisant de
 Vous trouverez plus d’informations sur mon profil [LinkedIn]({{ linkedin_url }}) .
 
 {% assign wp_url = author.url_wordpress %}
-Ce site prend la suite de [mon ancien site sous Wordpress]({{ wp_url }}).
+Ce site prend la suite de mon ancien site [Claude au pays des 4J]({{ wp_url }}) sous Wordpress.
 
 ## Plan du site
 
