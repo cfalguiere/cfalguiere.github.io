@@ -10,15 +10,13 @@ banner: /assets/images/banner-1200-300.png
 {{ group.name }}
 
   {% for item in group.items %}
-
+<p>
   {% if item.hasOwnProperty('relative_url') %}
-[{{ item.name }}]({{ site.baseurl }}{{ item.relative_url }})   
-{{ item.lang }}  {{ item.year }}
+[{{ item.name }}]({{ site.baseurl }}{{ item.relative_url }})   ( {{ item.lang }}  {{ item.year }})
   {% else %}
-[{{ item.name }}]({{ item.url }})   
-{{ item.lang }}  {{ item.year }}
+[{{ item.name }}]({{ item.url }})   ( {{ item.lang }}  {{ item.year }})
   {% endif %}
-
+</p>
   {% endfor %}
 
 {% endfor %}
