@@ -1,5 +1,5 @@
 ---
-title: "Un nouveau cycle commence, Le Pixel Bleu"
+title: "Un nouveau cycle commence"
 categories:
   - Blog
 tags:
