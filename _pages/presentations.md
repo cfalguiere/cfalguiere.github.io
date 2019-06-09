@@ -13,9 +13,9 @@ presentation_baseurl: http://cfalguiere.github.io/Presentations/
   {% for item in group.items %}
 
   {% if item.hasOwnProperty('relative_url') %}
-    {% assign url=page.presentation_baseurl | append: item.relative_url  %}
+    {% assign url = page.presentation_baseurl | append: item.relative_url  %}
   {% else %}
-    {% assign url=item.url %}
+    {% assign url = item.url %}
   {% endif %}
 
   <a href="{{ url }}" target="blank">{{ item.name }}</a> <span style="font-size: 0.7em">{{ item.lang }}  {{ item.year }}</span>
