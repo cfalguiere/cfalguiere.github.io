@@ -12,7 +12,7 @@ banner: /assets/images/banner-1200-300.png
   {% for item in group.items %}
 
   {% if item.hasOwnProperty('relative_url') %}
-    {% assign url = 'http://cfalguiere.github.io/Presentations/' | append: item.relative_url  %}
+    {% capture url %} http://cfalguiere.github.io/Presentations/{{ item.relative_url }}{% endcapture %}
   {% else %}
     {% assign url = item.url %}
   {% endif %}
