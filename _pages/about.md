@@ -17,7 +17,7 @@ Je recherche aussi des moyens fun d’apprendre l’informatique en utilisant de
 {% assign linkedin_url = author.linkedin %}
 Vous trouverez plus d’informations sur mon profil [LinkedIn]({{ linkedin_url }}) .
 
-{% assign wp_url = author.wordpress %}
+{% assign wp_url = author.url_wordpress %}
 Ce site prend la suite de [mon ancien site sous Wordpress]({{ wp_url }}).
 
 ## Plan du site
