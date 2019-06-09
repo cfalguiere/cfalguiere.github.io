@@ -5,6 +5,7 @@ classes: wide
 assets_folder: /assets/images/presentations/
 author: cfalguiere
 banner: /assets/images/banner-1200-300.png
+presentation_baseurl: http://cfalguiere.github.io/Presentations/
 ---
 {% for group in site.data.presentations.groups %}
 {{ group.name }}
@@ -12,10 +13,12 @@ banner: /assets/images/banner-1200-300.png
   {% for item in group.items %}
 
   {% if item.hasOwnProperty('relative_url') %}
-[{{ item.name }}]({{ site.baseurl }}{{ item.relative_url }})  - {{ item.lang }}  {{ item.year }}
+    {% assign url=page.presentation_baseurl.concat(item.relative_url ) %}
   {% else %}
-[{{ item.name }}]({{ item.url }}) - {{ item.lang }}  {{ item.year }}
+    {% assign url=item.url %}
   {% endif %}
+
+  <a href="{{ url }}" target="blank">{{ item.name }}</a> <span style="font-size: 0.5em">{{ item.lang }}  {{ item.year }}</span>
 
   {% endfor %}
 
