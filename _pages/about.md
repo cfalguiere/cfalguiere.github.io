@@ -10,7 +10,7 @@ banner: /assets/images/banner-1200-300.png
 
 Je suis architecte spécialisée en Data Engineering.
 
-Je recherche aussi des moyens fun d’apprendre l’informatique en utilisant des robots, le dessin ou la musique. Je suis mentor pour le Coder Dojo epour des ateliers de robotique et sur Arduino.
+Je recherche aussi des moyens fun d’apprendre l’informatique en utilisant des robots, le dessin ou la musique. Je suis mentor pour le Coder Dojo pour des ateliers de robotique et sur Arduino.
 <!-- site toutenalgo -->
 
 {% assign author = site.data.authors[page.author] %}
