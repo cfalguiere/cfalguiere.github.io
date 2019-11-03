@@ -35,7 +35,7 @@ Bien sûr il y a quelques inconvénients
 
 J'aurais pu creuser la configuration de site Wordpress, tester des plugins et essayer d'apprendre PHP. J'ai préféré essayer autre chose.
 
-Entre temps, j'avais essayé une autre option pour un autre site lié à mes ateliers au Coder Dojo, [Toutenalgo, le petit algoanaute](http://www.toutenalgo.fr). Ce site est fait avec Jekyll [Jekyll](https://jekyllrb.com/) et le thème  [Minimal Mistakes](https://mmistakes.github.io/minimal-mistake). Ce thème est bien plus complet et esthétique que les thèmes Github. Github Pages accepte tout site en Jekyll et le site peut être servi par Github. Il existe d'autres options simples comme le copier en site statique sur S3.
+Entre temps, j'avais essayé une autre option pour un autre site lié à mes ateliers au Coder Dojo, [Toutenalgo, le petit algonaute](http://www.toutenalgo.fr). Ce site est fait avec [Jekyll](https://jekyllrb.com/) et le thème  [Minimal Mistakes](https://mmistakes.github.io/minimal-mistake). Ce thème est bien plus complet et esthétique que les thèmes Github. Github Pages accepte tout site en Jekyll et le site peut être servi par Github. Il existe d'autres options simples comme le copier en site statique sur S3.
 
 Ce site est fait de la même manière, Jekyll [Jekyll](https://jekyllrb.com/) et le thème  [Minimal Mistakes](https://mmistakes.github.io/minimal-mistake) et un habillage un peu différent.
 
