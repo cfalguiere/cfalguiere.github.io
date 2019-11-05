@@ -55,6 +55,6 @@ voxxed_lu_2019_gallery:
 ---
 Les slides de mon talk sur l'Industrialisation du Machine Learning à Voxxed Luxembourg en Juin 2019.
 
-Cliquez sur une image pour voir le diaporama en plein écran.
+<small><i>Cliquez sur une image pour voir le diaporama en plein écran</i></small>
 
 {% include gallery id="voxxed_lu_2019_gallery"  %}
