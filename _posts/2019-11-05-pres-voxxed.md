@@ -1,5 +1,5 @@
 ---
-title: "Un nouveau cycle commence"
+title: "Industrialisation Machine Learning à Voxxed Luxembourg"
 categories:
   - Blog
 tags:
@@ -53,5 +53,8 @@ voxxed_lu_2019_gallery:
     image_path: /assets/presentations/voxxed-lu-2019/voxxed-lux-2019-falguiere/voxxed-lux-2019-falguiere.022.png
 
 ---
+Les slides de mon talk sur l'Industrialisation du Machine Learning à Voxxed Luxembourg en Juin 2019.
+
+Cliquez sur une image pour voir le diaporama en plein écran.
 
 {% include gallery id="voxxed_lu_2019_gallery"  %}
